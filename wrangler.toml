@@ -1,1 +1,10 @@
+name = "telegram-worker"
+main = "worker.js"
+compatibility_date = "2024-07-01"
 
+# Если хочешь сделать приватный ключ в ENV
+# [[vars]]
+# TELEGRAM_TOKEN = "123456789:ABC..."
+# CHAT_ID = "5531141998"
+
+# account_id и zone_id можно не указывать если используешь wrangler для Workers Sites/Standalone
